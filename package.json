@@ -1,29 +1,11 @@
 {
-    "name" : "sorta",
-    "version" : "0.0.5",
-    "description" : "preserve the ordering of html elements in the browser as updates stream in",
-    "main" : "index.js",
-    "directories" : {
-        "example" : "example",
-        "test" : "test"
-    },
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/substack/sorta.git"
-    },
-    "homepage" : "https://github.com/substack/sorta",
-    "keywords" : [
-        "ui",
-        "browserify",
-        "browser",
-        "sort",
-        "order",
-        "stream"
-    ],
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
-    },
-    "license" : "MIT"
+  "name": "juliangruber-sorta",
+  "description": "preserve the ordering of html elements in the browser as updates stream in",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "juliangruber-stream": "git://github.com/npmcomponent/juliangruber-stream.git",
+    "juliangruber-events": "git://github.com/npmcomponent/juliangruber-events.git"
+  },
+  "license": "MIT"
 }

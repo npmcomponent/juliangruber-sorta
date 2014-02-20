@@ -1,5 +1,5 @@
-var Stream = require('stream');
-var EventEmitter = require('events').EventEmitter;
+var Stream = require('juliangruber-stream');
+var EventEmitter = require('juliangruber-events').EventEmitter;
 
 var sorta = module.exports = function (opts, cb) {
     if (typeof opts === 'object') {
